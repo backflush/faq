@@ -1,12 +1,19 @@
 {
   "name": "faq",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "It's an application for frequently asked questions",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Wesley Bernardes",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2"
+  }
 }
