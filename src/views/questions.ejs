@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./partials/head") %> 
+<body>
+    <div class="container mt-5">
+        <div class="buttons d-flex justify-content-between my-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb align-middle">
+                    <li class="breadcrumb-item "><a href="/">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Perguntar</li>
+                </ol>
+            </nav>
+            <a href="/" class="btn btn-primary">Voltar a home</a>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h4>Realize sua pergunta</h3>
+            </div>
+            <div class="card-body">
+                <form action="/savequestion" method="POST">
+                    <div class="form-group">
+                        <label for="title" class="mb-2">Título:</label>
+                        <input type="text" id="title" name="title" placeholder="Digite o título da sua pergunta" class="form-control">
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="description" class="mb-2">Descrição:</label>
+                        <textarea cols="20" rows="10" id="description" name="description" placeholder="Escreva sua pergunta..." class="form-control"></textarea>
+                    </div>
+                    <div class="form-group mb-1">
+                        <button type="submit" class="btn btn-primary">Enviar pergunta</button>
+                        <button type="reset" class="btn btn-outline-secondary" id="clear-button">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <%- include("./partials/scripts") %> 
+</body>
+</html>
