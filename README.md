@@ -7,7 +7,7 @@ If you want to take a look on all screens of the application, they are [here](ht
 
 The idea of the application is:
 
-_"It's an app that let the user ask/answer any question"_
+_"It's an application for frequently asked questions"_
 
 ## Why?
 
