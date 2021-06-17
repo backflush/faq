@@ -55,7 +55,7 @@ $ npm install
 
 ### Creating a databse
 
-You'll need a localhost connection running in the background. If you have mySQL installed in your machine just start it, but if you don't, wamp does the work correctly. Neverthenless, you'll have to create a database and configure the connection to it in config.js inside database's folder.
+You'll need to create an database in mySQL Workbench or by the mySQL cmd. After you created it, just configurate the config.js file inside the database folder.
 
 ### Running
 
@@ -77,7 +77,7 @@ The project will be locate at the port **localhost:3000**, but you can configure
 - [Nodemon](https://nodemon.io/) - Reloads the application
 - [mySQL2](https://sqlite.org/index.html) - Used to create the database
 - [EJS](https://ejs.co/) - Used to let JavaScript's code in HTML
-- [Bootstrap4](https://getbootstrap.com/) - Used to fast sytle all the pages
+- [Bootstrap4](https://getbootstrap.com/) - Used to fast style all the pages
 - [Sequelize](https://sequelize.org/) - Used to manage versions of the database primarily SQL database
 
 ## Contribuing
