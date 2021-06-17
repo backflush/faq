@@ -7,10 +7,10 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb align-middle">
                     <li class="breadcrumb-item "><a href="/">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Responder</li>
+                    <li class="breadcrumb-item active" aria-current="page">Answer</li>
                 </ol>
             </nav>
-            <a href="/" class="btn btn-primary">Voltar a home</a>
+            <a href="/" class="btn btn-primary">Go to home</a>
         </div>
         <div class="card">
             <div class="card-header">
@@ -22,13 +22,13 @@
             <div class="card-footer">
                 <form action="/answer" method="POST">
                     <div class="form-group">
-                        <label for="description" class="mb-3">Digite abaixo sua resposta:</label>
+                        <label for="description" class="mb-3">Type below your answer:</label>
                         <textarea name="description" id="description" cols="30" rows="5" class="form-control"></textarea>
                     </div>
                     <div class="form-group my-3">
                         <input type="hidden" name="idquestion" value="<%= question.id %>">
-                        <button type="submit" class="btn btn-primary">Enviar resposta</button>
-                        <button type="reset" class="btn btn-outline-secondary">Limpar</button>
+                        <button type="submit" class="btn btn-primary">Send answer</button>
+                        <button type="reset" class="btn btn-outline-secondary">Clear</button>
                     </div>
                 </form>
             </div>

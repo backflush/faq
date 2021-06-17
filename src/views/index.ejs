@@ -4,7 +4,7 @@
 <body>
     <div class="container my-5">
         <div class="d-flex align-items-center justify-content-between mb-3">
-            <h3>Todas as perguntas</h2>
+            <h3>All questions</h2>
             <a href="/questions" class="btn btn-primary">Perguntar algo</a>
         </div>
         <% questions.forEach(question => { %>
@@ -18,7 +18,7 @@
                 </div>
                 <div class="card-footer py-3">
                     <a href="/question/<%= question.id %>">
-                        <button type="submit" class="btn btn-primary">Responder</button>
+                        <button type="submit" class="btn btn-primary">Answer</button>
                     </a>
                 </div>
             </div>
