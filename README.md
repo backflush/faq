@@ -36,7 +36,7 @@ And you can use this project as you wish!
 **Cloning the Repository**
 
 ```
-$ git@github.com:SouzaWesley/faq.git
+$ git clone git@github.com:SouzaWesley/faq.git
 
 $ cd faqClone
 ```
