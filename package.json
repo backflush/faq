@@ -4,7 +4,7 @@
   "description": "It's an application for frequently asked questions",
   "main": "src/app.js",
   "scripts": {
-    "start": "nodemon ."
+    "dev": "nodemon ."
   },
   "keywords": [],
   "author": "Wesley Bernardes",
