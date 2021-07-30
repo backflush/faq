@@ -15,19 +15,19 @@ This project is part of my personal portfolio, it was developed during a course,
 
 Reach me at: bwesleysouza@gmail.com
 
-Connect with me at [LinkedIn](https://www.linkedin.com/in/).
+Connect with me at [LinkedIn](https://www.linkedin.com/in/bwesleysouza).
 
 And you can use this project as you wish!
 
 ## Some Observations about this App
 
-1 - There isn't a functionality of Login/Register, you can just ask or answer something.
+- There isn't a functionality of Login/Register
 
 ## Functionalities
 
 - Ask something that you aren't sure about.
-
 - Answer something that you know about.
+- 
 
 ## Getting started
 
@@ -55,18 +55,18 @@ $ npm install
 
 ### Creating a databse
 
-You'll need to create an database in mySQL Workbench or by the mySQL cmd. After you created it, just configurate the config.js file inside the database folder.
+You'll need to create an database in mySQL Workbench or by the mySQL cmd. After you created it, just configurate the config.js file inside the database folder. After the files that are inside the Model folder will create the tables.
 
 ### Running
 
 With all dependencies installed, the database created and the environment properly configured, you can now run the application:
 
 ```
-$ npm start
+$ npm run dev
 ```
 
 ```
-$ yarn start
+$ yarn run dev
 ```
 
 The project will be locate at the port **localhost:3000**, but you can configure.
@@ -74,11 +74,14 @@ The project will be locate at the port **localhost:3000**, but you can configure
 ## Build with
 
 - [Express](http://expressjs.com/) - Complements NodeJS with some web application features
-- [Nodemon](https://nodemon.io/) - Reloads the application
 - [mySQL2](https://sqlite.org/index.html) - Used to create the database
 - [EJS](https://ejs.co/) - Used to let JavaScript's code in HTML
 - [Bootstrap4](https://getbootstrap.com/) - Used to fast style all the pages
 - [Sequelize](https://sequelize.org/) - Used to manage versions of the database primarily SQL database
+
+## Support tools
+
+- [Nodemon](https://nodemon.io/) - Reloads the application
 
 ## Contribuing
 
